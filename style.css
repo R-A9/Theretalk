@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 a img {
+  width: 500px;
+  height: 200px;
+}
+
+h1 {
+      font-weight: bold;
+      font-style: normal;
+      text-indent: 50px;
+      font-family: Lucida Handwriting;
+      font-size: x-large;
+      color: #85605B;
+      background:#F9F8ED;
+      
+   }
+
+ body {
+           margin: 0;
+           background-color: #639A67;
+          }
+
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 30vh;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+header .logo
+{
+    position: relative;
+    max-width: 80px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    list-style: none;
+  color: #ffffff;
+}
+header ul li a
+{
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: 650;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+/*container*/
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+
+.left-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    margin-top: -30px;
+}
+
+.right-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    margin-top: -30px;
+    background: #F9F8ED;
+    padding: 20px;
+    border-radius: 4px;
+    color:#85605B;
+    text-align: center;
+}
+
+
+
+.main-content{
+    flex-basis: 47%;
+}
+
+.imp-links a, .shortcut-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    width: fit-content;
+}
+
+.imp-links{
+    border-bottom: 1px solid #ccc;
+}
+
+.imp-links h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.shortcut-links a img {
+    width: 40px;
+    border-radius: 4px;
+    margin-right: 15px;
+    height: 40px;
+}
+
+.shortcut-links {
+    margin: 25px 0;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.shortcut-links p {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+.sidebar-title {
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.sidebar-title h4 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sidebar-title a{
+    text-decoration: none;
+    color: #3a7a3c;
+    font-size: 12px;
+}
+
+.event{
+    color: rgb(160, 125, 121);
+}
+
+.event h5{
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.event p {
+    margin-left: 10px;
+}
+
+.service {
+    margin-top: 5px;
+}
+
+.num {
+    margin-top: -10px;
+}
+
+.main-content h2{
+    color: rgb(255, 255, 255);
+    margin-top: -33px;
+}
+
+.write-post-container{
+    width: 100%;
+    background:#F9F8ED;
+    border-radius: 6px;
+    padding: 20px;
+    columns: #626262;
+    color: #626262;
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img{
+    width: 45px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.user-profile small{
+    font-size: 12px;
+}
+
+.user-profile input{
+    border: 1px solid #ccc;
+}
+
+.post-input-container{
+    padding-left: 55px;
+}
+
+.post-input-container textarea{
+    width: 100%;
+    outline: 0;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.post-btn input{
+    width: 55px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.post-container p{
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #383737;
+}
+
+.post-container {
+    width: 100%;
+    background: #F9F8ED;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+}
+
+.post-text{
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+    margin-top: -10px;
+}
+

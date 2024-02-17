@@ -1,0 +1,208 @@
+/*   Changelog
+
+Dawal: Changed .r-div1 width from 500px to 350px to make space for confession boxes*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 420px;
+  height: 160px;
+}
+
+h1 {
+      font-weight: bold;
+      font-style: normal;
+      text-indent: 40px;
+      font-family: Lucida Handwriting;
+      font-size: x-large;
+      color: #85605B;
+      background:#F9F8ED;
+      
+   }
+
+ body {
+           margin: 0;
+           background-color: #639A67;
+          }
+
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 30vh;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+header .logo
+{
+    position: relative;
+    max-width: 80px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    list-style: none;
+  color: #ffffff
+}
+header ul li a
+{
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: 650;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.r-div {
+            display: flex;
+            justify-content: right;
+            align-items: right;
+           }
+
+
+ .r-div1 {
+
+
+            background-color: #F9F8ED;
+            color: #523906;
+            text-align:justify;
+            width: 350px;
+            height: 800px;
+            font-family: Lucida Handwriting;
+            font-weight: 500;
+            padding: 14px;
+            overflow:scroll;
+ }
+
+ #hotline {
+     background-color: #F9F8ED;
+     color: #523906;
+     float: right;
+     width: 25%;
+     margin-top: -330px;
+     margin-right: -20px;
+ }
+
+/* Experimental CSS of confession box 
+
+pls help
+
+    */
+
+ h3 {
+     margin-left:23px;
+     margin-top: 10px;
+     margin-bottom: -10px;
+ }
+
+.confess-1 {
+  background:#F2F9F1;
+  min-height:20px;
+  min-width: 20px;
+  border-radius: 5px;
+  float:left;
+  padding: 20px;
+}
+
+#confess {
+    background-color: #a9d3ab;
+    border-radius: 5px;
+    text-align: justify;
+    float: left;
+}
+
+.name {
+    font-weight:600;
+    margin-left: 2px;
+}
+
+.float-container {
+   padding: 20px;
+}
+
+.float-child {
+   width: 50%;
+   float: left;
+   padding: 10px;
+   margin-bottom: 20px;
+}  
+
+button{
+   width: 80px;
+   padding: 5px;
+   font-size: 15px;
+   border-radius: 5px;
+}
+
+.approve {
+   background-color: #54c75c;
+}
+
+.decline {
+   background-color: #c75454;
+}
+
+.edit {
+   background-color: #e4da4d;
+}
+
+#btns {
+   padding: 20px;
+}
+
+.review {
+   margin-top: 5px;
+}
+
+#w3review {
+   width:250px;
+   padding: 7px;
+}
+
+.submit {
+   border-radius: 3px;
+   width: 70px;
+   background-color: #aad6ff;
+}
+
+/* End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     
+                                                   
